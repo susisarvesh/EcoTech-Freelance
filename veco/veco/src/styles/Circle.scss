@@ -1,0 +1,313 @@
+
+.circle{
+    height: 550px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 30px;
+    background-color:white;
+    .borderline{
+        width:420px ;
+        height: 420px;
+        border-radius: 50%;
+        display: flex;
+    justify-content: center;
+    align-items: center;
+        background-color: green;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+    .circleborder{
+        
+        width: 400px;
+        background-color: white;
+        display: flex;
+        border-radius: 50%;
+        // border: 4px solid rgba(128, 128, 128, 0.527);
+      
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 70px;
+        align-items: center;
+        height: 400px;
+        .circleh3{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 150px;
+            width: 100%;
+            
+            border-bottom: 1px solid gray;
+        }
+       
+    }}
+    .circlecont{
+        width: 50%;
+        height: 350px;
+        background-color: white;
+        border-radius: 20px;
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+        .ccont{
+            display: flex;
+            justify-content: center;
+
+            font-size: 30px;
+            border-bottom: 1px solid black;
+            width: 500px;
+            padding: 10px;
+        }
+        .vslink{
+            text-decoration: none;
+            background-color: green;
+            color: white;
+            padding: 10px;
+            border-radius: 10px;
+            &:hover{
+                background-color: orange;
+                transition: all 1s ease;
+            }
+        }
+    }
+}
+//for tablets
+@media only screen and (min-width: 767px) and (max-width: 973px){
+    .circle{
+        overflow: hidden;
+        height: 1050px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 30px;
+        background-color:white;
+        .borderline{
+            width:320px ;
+            height: 320px;
+            border-radius: 50%;
+            display: flex;
+        justify-content: center;
+        align-items: center;
+            background-color: green;
+            box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+        .circleborder{
+            
+            width: 300px;
+            background-color: white;
+            display: flex;
+            border-radius: 50%;
+            // border: 4px solid rgba(128, 128, 128, 0.527);
+          
+            flex-direction: column;
+            justify-content: space-between;
+            padding: 70px;
+            align-items: center;
+            height: 300px;
+            .circleh3{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 150px;
+                width: 100%;
+                
+                border-bottom: 1px solid gray;
+            }
+           
+        }}
+        .circlecont{
+            width: 100%;
+            height: 580px;
+            background-color: white;
+            border-radius: 20px;
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            flex-direction: column;
+            box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+            .ccont{
+                display: flex;
+                justify-content: center;
+    
+                font-size: 30px;
+                border-bottom: 1px solid black;
+                width: 500px;
+                
+                padding: 20px;
+            }
+            .vslink{
+                text-decoration: none;
+                background-color: orange;
+                color: white;
+                padding: 10px;
+                border-radius: 10px;
+                margin-top: 10px;
+               
+            }
+        }
+    }
+    
+
+}
+
+//for ipad pro 12 inch
+@media only screen and (min-width: 976px) and (max-width: 1025px){
+    .circle{
+        overflow: hidden;
+        height: 1050px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 30px;
+        background-color:white;
+        .borderline{
+            width:320px ;
+            height: 320px;
+            border-radius: 50%;
+            display: flex;
+        justify-content: center;
+        align-items: center;
+            background-color: green;
+            box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+        .circleborder{
+            
+            width: 300px;
+            background-color: white;
+            display: flex;
+            border-radius: 50%;
+            // border: 4px solid rgba(128, 128, 128, 0.527);
+          
+            flex-direction: column;
+            justify-content: space-between;
+            padding: 70px;
+            align-items: center;
+            height: 300px;
+            .circleh3{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 150px;
+                width: 100%;
+                
+                border-bottom: 1px solid gray;
+            }
+           
+        }}
+        .circlecont{
+            width: 100%;
+            height: 580px;
+            background-color: white;
+            border-radius: 20px;
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            flex-direction: column;
+            box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+            .ccont{
+                display: flex;
+                justify-content: center;
+    
+                font-size: 30px;
+                border-bottom: 1px solid black;
+                width: 500px;
+                
+                padding: 20px;
+            }
+            .vslink{
+                text-decoration: none;
+                background-color: orange;
+                color: white;
+                padding: 10px;
+                border-radius: 10px;
+                margin-top: 10px;
+               
+            }
+        }
+    }
+}
+
+//phones
+@media (max-width:476px){
+    .circle{
+        overflow: hidden;
+        height: 1050px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 30px;
+        background-color:white;
+        .borderline{
+            width:320px ;
+            height: 320px;
+            border-radius: 50%;
+            display: flex;
+        justify-content: center;
+        align-items: center;
+            background-color: green;
+            box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+        .circleborder{
+            
+            width: 300px;
+            background-color: white;
+            display: flex;
+            border-radius: 50%;
+            // border: 4px solid rgba(128, 128, 128, 0.527);
+          
+            flex-direction: column;
+            justify-content: space-between;
+            padding: 70px;
+            align-items: center;
+            height: 300px;
+            .circleh3{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 150px;
+                width: 100%;
+                
+                border-bottom: 1px solid gray;
+            }
+           
+        }}
+        .circlecont{
+            width: 100%;
+            height: 580px;
+            background-color: white;
+            border-radius: 20px;
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            flex-direction: column;
+            box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+            .ccont{
+                display: flex;
+                justify-content: center;
+    
+                font-size: 30px;
+                border-bottom: 1px solid black;
+                width: 200px;
+                
+                padding: 20px;
+            }
+            .vslink{
+                text-decoration: none;
+                background-color: orange;
+                color: white;
+                padding: 10px;
+                border-radius: 10px;
+                margin-top: 10px;
+               
+            }
+        }
+    }
+
+}

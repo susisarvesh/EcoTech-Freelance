@@ -1,0 +1,40 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.preloader{
+    overflow: hidden;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.loader{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    z-index: 9999;
+    background-color: white;
+.bar{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    height: 100vh;
+    width: 100%;
+    .barconfirm{
+        width: 1%;
+        height: 100vh;
+        background-color: black;
+
+
+.percent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    color: white;
+    font-size: 150px;
+    font-weight:lighter;
+    mix-blend-mode:difference;
+  }
+}
+}}
